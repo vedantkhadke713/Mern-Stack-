@@ -117,22 +117,138 @@ button:hover{
     background-size: cover;
 }
 #section-2{
-    background-color: rosybrown;
-    height: 500px;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
     width: 100%;
     margin-top: 100px;
-    padding: 25px 80px;
+    padding: 0px 80px;
     display: flex;
     justify-content: space-evenly;
 }
 #col-1{
     width: 50%;
     height: 100%;
-    background-color: sandybrown;
+    padding-left: 75px;
+    background-color: rgb(255, 255, 255);
+}
+#col-1 img{
+    height: 475px;
+    width: 475px;
 }
 #col-2{
     width: 50%;
     height: 100%;
-    background-color: whitesmoke;
-    
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255); 
+}
+#col-2 h1{
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    font-size: 50px;
+}
+#col-2 p{
+    margin-top: 15px;
+    width: 65%;
+    font-size: 20px;
+    line-height: 1.6;
+}
+#button-2{
+    width: fit-content;
+    background-color: white;
+    color: grey;
+    font-size: 20px;
+    border: 0.5px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 3px;
+    margin-top: 1em;
+}
+#button-2:hover{
+    background-color: rgb(45,38,64);
+    color: white;
+    cursor: pointer;
+}
+#section-3{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 450px;
+    padding: 0px 0px 0px 150px;
+    padding-right: 75px;
+    display: flex;
+    flex-direction: column;
+}
+#line-2{
+    width: 15em;
+    height: 1px;
+    background-color: rgb(169, 169, 169);
+}
+#section-3 h1{
+    font-size: 50px;
+    color: black;
+    width: fit-content;
+}
+.thr_section{
+    display: flex;
+    height: 70%;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+#col_1{
+    width:33%;
+    background-color: rgb(255, 255, 255);
+}
+#col_1 h2{
+    font-size: 30px;
+}
+#col_2{
+    width:33%;
+    background-color: rgb(255, 255, 255);
+}
+#col_2 h2{
+    font-size: 30px;
+}
+#col_3{
+    width:34%;
+    background-color: rgb(255, 255, 255);
+}
+#col_3 h2{
+    font-size: 30px;
+}
+#circle{
+    width: 10%;
+    height: 10%;
+    border-radius: 80px;
+    background-color: rgb(106, 186, 218);
+}
+.par{
+    margin-top: 1em;
+    width: 90%;
+    font-size: 17px;
+    color: grey;
+    line-height: 1.5;
+}
+#section-4{
+    width: 100%;
+    padding-left: 140px;
+    padding-right: 140px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+#container{
+    background-color: rgb(45,38,64);
+    width: 100%;
+    height: 90%;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+#container h1{
+    color: white;
+    font-size: 50px;
+    align-self: center;
+}
+#button-3{
+    height: 50px;
+    align-self: center;
 }

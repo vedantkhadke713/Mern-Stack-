@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    height: 11vh;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+    justify-content: space-between;
+    font:uppercase;
+    padding-right: 150px;
+}
+header h1{
+    align-self: center;
+    padding-left: 175px;
+    font-size: 35px;
+}
+.headerclass{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 200px; /* Fixed typo */
+    font-size: 23px;
+    font-weight: 600;
+    color: grey;
+    margin-left: 20px;
+    padding-right: 35px;
+}
+.headerclass h5:hover{
+    color: rgb(45,38,64);
+    cursor: pointer;
+}
+#header-box{
+    font-size: 20px;
+    border: 0.5px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 3px;
+}
+#header-box:hover{
+    background-color: rgb(45,38,64);
+    color: white;
+    cursor: pointer;
+}
+#header-box h4:hover{
+    color: white;
+    cursor: pointer;
+}
+section{
+    height: 525px;    
+    background-color: rgb(45,38,64);
+    display: flex;
+    padding-top: 4em;
+    padding-left: 12em;
+    padding-right: 12em;
+
+}
+#col1{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+#line{
+    width: 12em;
+    height: 2px;
+    background-color: white;
+}
+#col1 h1{
+    width: 100%;
+    color: white;
+    font-size: 55px;
+    padding-top: 15px;
+}
+#col1 p{
+    color: grey;
+    margin-top: 1.5em;
+    width: 80%;
+    font-size: 17px;
+    line-height: 1.6;
+}
+button{
+    background-color: rgb(45,38,64);
+    color: white;
+    font-size: 20px;
+    border: 0.5px solid rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 3px;
+    margin-top: 1em;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(45,38,64);
+    cursor: pointer;
+}
+#col2{
+    width: 45%;
+    height: 90%;
+    /* background-color: orchid; */
+    padding-left: 50px;
+}
+#col2 img{
+    background-image: center;
+    opacity: 1;
+    height: 550px;
+    width: 500px;
+    background-size: cover;
+}
+#section-2{
+    background-color: rosybrown;
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#col-1{
+    width: 50%;
+    height: 100%;
+    background-color: sandybrown;
+}
+#col-2{
+    width: 50%;
+    height: 100%;
+    background-color: whitesmoke;
+    
+}

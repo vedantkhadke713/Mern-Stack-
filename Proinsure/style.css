@@ -14,11 +14,17 @@ body{
 header{
     display: flex;
     height: 11vh;
+    width: 100%;
+    position: fixed;
     background-color: rgb(255, 255, 255);
     align-content: center;
     justify-content: space-between;
     font:uppercase;
     padding-right: 150px;
+}
+#icon{
+    position: relative;
+    display: none;
 }
 header h1{
     align-self: center;
@@ -27,6 +33,7 @@ header h1{
 }
 .headerclass{
     width: 40%;
+    gap: 15px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -251,4 +258,56 @@ button:hover{
 #button-3{
     height: 50px;
     align-self: center;
+}
+#section-5{
+    width: 100%;
+    height: 200px;
+    padding: 15px 140px;
+    background-color: rgb(255, 255, 255);
+}
+#container-2{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+#container-2 h1{
+    color: black;
+    margin-bottom: 8px;
+}
+#line_3{
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+}
+@media (max-width:1250px) {
+    header{
+        display: flex;
+        height: 11vh;
+        width: 100%;
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        align-content: center;
+        justify-items: space-between;
+        font:uppercase;
+        padding-right: 150px;
+    }
+    header h5{
+        display: none;
+    }
+    #header-box{
+        display: none;
+    }
+    #icon{
+        display: block;
+        justify-self: flex-end;
+    }
+    #icon:hover{
+        cursor: pointer;
+        header-box{
+            display: flex;
+            flex-direction: column;
+            height: 70px;
+            width: 50px;
+            margin-top: 15px;
+        }
+    }
 }
